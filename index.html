@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sangam Burger Point | Fresh & Delicious</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home">🍔 SANGAM <span>BURGER POINT</span></a>
+  <nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#order">Order</a><a href="/admin">Admin</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-content"><p class="eyebrow">FRESH • HOT • DELICIOUS</p><h1>Good Food.<br><span>Great Mood.</span></h1>
+  <p>Burgers, shawarma and crispy fries made for your cravings.</p><a class="btn" href="#menu">Explore Menu ↓</a></div>
+</section>
+<section class="section" id="menu"><div class="section-head"><p class="eyebrow">MADE FRESH FOR YOU</p><h2>Our <span>Menu</span></h2><p>Pick your favourites and add them to your cart.</p></div>
+<div class="menu-grid" id="menuGrid"><p>Loading menu…</p></div></section>
+<section class="section order-section" id="order"><div class="section-head"><p class="eyebrow">READY WHEN YOU ARE</p><h2>Your <span>Order</span></h2></div>
+<div class="checkout-grid"><div class="panel"><h3>🛒 Your Cart</h3><div id="cartItems" class="cart-items">Your cart is empty.</div><div class="total-line"><span>Subtotal</span><strong>Rs. <span id="cartTotal">0</span></strong></div><p class="muted">Delivery charges, if any, are confirmed by the restaurant.</p></div>
+<form id="checkoutForm" class="panel"><h3>Delivery Details</h3>
+<label for="customerName">Full name</label><input id="customerName" maxlength="80" required placeholder="Your name">
+<label for="customerPhone">Phone / WhatsApp</label><input id="customerPhone" maxlength="30" required placeholder="03XXXXXXXXX">
+<label for="customerAddress">Delivery address</label><textarea id="customerAddress" maxlength="300" required placeholder="House, street, area"></textarea>
+<label for="customerNotes">Order notes (optional)</label><textarea id="customerNotes" maxlength="300" placeholder="Any special instructions?"></textarea>
+<button class="btn full" type="submit">Place Order on WhatsApp</button><p id="message" class="message" role="status"></p>
+</form></div></section>
+<section class="about"><p class="eyebrow">WELCOME TO SANGAM</p><h2>Big flavour. <span>Made with care.</span></h2><p>Great bites, friendly service, and your favourite comfort food.</p></section>
+</main>
+<footer><strong>🍔 Sangam Burger Point</strong><p>Fresh Taste. Great Moments.</p><p>© 2026 Sangam Burger Point</p></footer>
+<script src="/app.js"></script>
+</body></html>

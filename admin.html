@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sangam Burger Point | Admin</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="/">🍔 SANGAM <span>BURGER POINT</span></a><nav><a href="/">Customer Website</a></nav></header>
+<main class="admin-wrap">
+<div class="admin-title"><div><p class="eyebrow">PRIVATE RESTAURANT DASHBOARD</p><h1>Order <span style="color:var(--gold)">Management</span></h1></div><button id="logoutBtn" class="btn" hidden>Log out</button></div>
+<div id="loginPanel" class="panel login-box"><h2>Admin Login</h2><p class="muted">یہ پینل صرف ریسٹورنٹ ایڈمن کے لیے ہے۔</p>
+<form id="loginForm"><label for="password">Admin password</label><input type="password" id="password" required autocomplete="current-password"><button class="btn full" type="submit">Log in</button><p id="loginMessage" class="message"></p></form></div>
+<div id="dashboard" hidden><div class="admin-title"><h2>Customer Orders</h2><button id="refreshBtn" class="btn">Refresh Orders</button></div><p id="dashboardMessage" class="message"></p><div id="ordersList"></div></div>
+</main>
+<footer><p>Sangam Burger Point • Admin Panel</p></footer>
+<script src="/admin.js"></script>
+</body></html>
